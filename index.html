@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <title>💗</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
  
     <style>
       html,
@@ -11,6 +14,8 @@
         padding: 0;
         margin: 0;
         background: #000;
+        font-family: 'Noto Serif TC', serif;
+        font-family: 'Playfair Display', serif;
       }
       canvas {
         position: absolute;
@@ -28,7 +33,8 @@
         transform: translate(-50%, -50%);
         margin-top: -20px;
         font-size: 46px;
-        color: #ea80b0;
+        color: #FFF;
+        font-weight: 900;
       }
       @keyframes anim {
         0% {
@@ -103,7 +109,7 @@
   <body>
     <canvas id="pinkboard"></canvas>
     <!-- 在下面加名字 -->
-     <div id="name" style="color: white;">瓜瓜愛芳芳</div> 
+     <div id="name">瓜瓜愛芳芳</div> 
  
     <script>
       var settings = {
